@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import {
-  EmailValidator,
   FormControl,
   FormGroup,
   ReactiveFormsModule,
@@ -44,7 +43,7 @@ export class App {
       Validators.required,
       Validators.minLength(5),
     ]),
-    age: new FormControl<number | null>(null, [
+    age: new FormControl<number>(0, [
       Validators.required,
       Validators.min(18),
     ]),
