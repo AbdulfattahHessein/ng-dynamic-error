@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */
+
+.is-invalid {
+  border: 2px solid red;
+}
+
+.is-valid {
+  border: 2px solid green;
+}
